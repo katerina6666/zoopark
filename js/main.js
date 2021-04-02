@@ -26,7 +26,7 @@ function hover(e, d) {
   document.getElementById(e).style.visibility = d == 1 ? 'visible' : 'hidden';
 }
 
-function hippo() { // Бегемот, показать конфеты и окрасить в другой цвет
+function hippo() { 
   if (!hippoCompleted) {
     show('windowY');
     const bucket = document.getElementById('bucket');
